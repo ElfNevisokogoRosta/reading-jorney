@@ -1,7 +1,7 @@
-import React from 'react'
-
 export const UserComponent = () => {
   return (
-    <span className='rounded-full border w-[35px] h-[35px] flex items-center justify-center font-bold text-[16px]'>K</span>
-  )
-}
+    <span className="flex h-[35px] w-[35px] items-center justify-center rounded-full border text-[16px] font-bold">
+      K
+    </span>
+  );
+};

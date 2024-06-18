@@ -1,14 +1,13 @@
-import React from 'react'
-import { LogoComponent } from '../LogoComponent/LogoComponent'
-import { UserComponent } from '../UserComponent'
-import BurgreBtn from '../BurgreBtn'
- const Header = () => {
+import BurgreBtn from '../BurgreBtn';
+import { LogoComponent } from '../LogoComponent/LogoComponent';
+import { UserComponent } from '../UserComponent';
+const Header = () => {
   return (
     <header>
-      <LogoComponent/>
-      <UserComponent/>
-      <BurgreBtn/>
+      <LogoComponent />
+      <UserComponent />
+      <BurgreBtn />
     </header>
-  )
-}
-export default Header
+  );
+};
+export default Header;

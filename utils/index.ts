@@ -1,2 +1,2 @@
-import { cn } from "./cn"
-export {cn}
+import { cn } from './cn';
+export { cn };
