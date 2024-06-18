@@ -1,4 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import './font/stylesheet.css'
+@import './font/stylesheet.css';
+
+@layer components {
+  .container {
+    width: 100%;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  @media screen and (min-width: 768px) {
+    .container {
+      max-width: 704px;
+      padding: 0 32px;
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    .container {
+      max-width: 1216px;
+    }
+  }
+}

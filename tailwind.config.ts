@@ -7,7 +7,19 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      sm:'460px',
+      md:'768px',
+      lg: "1280px"
+    },
     extend: {
+      borderRadius: {
+        default: '30px',
+      },
+      fontWeight: {
+        normal: "500",
+        bold: '700'
+      },
       colors: {
         white: {
           main: "#F9F9F9",
