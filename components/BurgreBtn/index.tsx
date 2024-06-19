@@ -11,9 +11,9 @@ const BurgreBtn = () => {
         <path
           d="M3.5 14H24.5M3.5 7H24.5M10.5 21H24.5"
           stroke="#F9F9F9"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </svg>
     </button>
